@@ -4,36 +4,40 @@
   padding: 0px;
   margin: 0px;
 }
-body {
+.banner-bg-img {
+  /* background-color: rgb(70, 47, 47); */
+  box-shadow: inset 100px 0 100px 100px rgba(0, 0, 0, 0.8);
+  opacity: 0.5;
   background-image: url("./img/background-img-removebg-preview.png");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  background-position: right 35% bottom 60%;
 }
-.login {
+.banner-text-and-btn {
   text-align: center;
+  padding-top: 20%;
+  padding-bottom: 18%;
 }
-.btn {
-  padding-top: 17px;
-  padding-bottom: 17px;
-  padding-left: 55px;
-  padding-right: 55px;
-  background-color: red;
-  border: none;
-  border-radius: 50px;
-  font-size: 20px;
-  position: relative;
-  /* bottom: -199px; */
+.banner-text-and-btn button {
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 49px;
+  padding-right: 49px;
   cursor: pointer;
-  top: 261px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(56, 56, 107);
+  font-size: 1.2rem;
+  color: white;
 }
-
-.btn:hover {
-  background-color: #3e8e41;
+button a {
+  text-decoration: none;
 }
-
-.btn:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+.banner-text-and-btn .login-text {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  /* color: white; */
+  color: black;
+  font-weight: bolder;
 }
